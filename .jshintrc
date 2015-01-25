@@ -1,10 +1,14 @@
 {
-  "node": true,
-
-  "curly": true,
-  "latedef": true,
+  "trailing": true,
   "quotmark": true,
-  "undef": true,
+  "browser": true,
+  "latedef": true,
+  "strict": true,
   "unused": true,
-  "trailing": true
+  "undef": true,
+  "curly": true,
+  "node": true,
+  "globals": {
+    "angular": false
+  }
 }
