@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "precommit-hook": "1.0.7",
+    "istanbul": "0.3.5"
+  },
+  "dependencies": {
+    "express": "4.11.1",
+    "morgan": "1.5.1"
+  },
+  "description": "Web client for Dizu API",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lihengl/dizu-web.git"
+  },
+  "homepage": "https://github.com/lihengl/dizu-web",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "LIHENG <admin@lihengl.com>",
+  "scripts": {
+    "test": "echo \"Warming: no test specified\" && exit 0"
+  },
+  "main": "server.js",
+  "name": "dizu-web",
+  "bugs": {
+    "url": "https://github.com/lihengl/dizu-web/issues"
+  }
+}
