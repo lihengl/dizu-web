@@ -8,9 +8,11 @@ html(lang="en-US", ng-app="dizu")
         meta(name="google", value="notranslate")
         title 郵遞區號
         if local
-            link(rel="stylesheet", href="bower_components/bootstrap/dist/css/bootstrap.min.css")
+            link(rel="stylesheet", href="/bower_components/bootstrap/dist/css/bootstrap.min.css")
+            link(rel="stylesheet", href="/static/dizu.min.css")
         else
             link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css")
+            link(rel="stylesheet", href="http://cdn.lihengl.com/dizu/0.1.0/dizu.min.css")
         link(href="/favicon.ico", type="image/x-icon", rel="shortcut icon")
         link(href="/favicon.ico", type="image/x-icon", rel="icon")
     body(ng-controller="postal")
@@ -19,9 +21,10 @@ html(lang="en-US", ng-app="dizu")
             script(type="text/javascript", src="/bower_components/jquery/dist/jquery.min.js")
             script(type="text/javascript", src="/bower_components/bootstrap/dist/js/bootstrap.min.js")
             script(type="text/javascript", src="/bower_components/angular/angular.min.js")
-            script(type="text/javascript", src="/static/dizu.js")
+            script(type="text/javascript", src="/static/dizu.min.js")
         else
             script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
             script(type="text/javascript", src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
             script(type="text/javascript", src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.10/angular.min.js")
+            script(type="text/javascript", src="http://cdn.lihengl.com/dizu/0.1.0/dizu.min.js")
 
